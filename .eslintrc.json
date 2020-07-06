@@ -1,5 +1,6 @@
 {
   "env": {
+    "browser": true,
     "es6": true
   },
   "extends": [
@@ -24,8 +25,8 @@
   },
   "plugins": [
     "react",
-    "@typescript-eslint",
     "react-hooks",
+    "@typescript-eslint/eslint-plugin",
     "prettier"
   ],
   "rules": {
